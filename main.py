@@ -280,8 +280,8 @@ if "assets" not in st.session_state:
     }
 if "liabilities" not in st.session_state:
     st.session_state.liabilities = {
-        "home_loan": 2500000.0,
-        "other_loans": 300000.0,
+        "home_loan": 0.0,
+        "other_loans": 0.0,
     }
 
 st.markdown(
@@ -474,6 +474,8 @@ with tab_input:
             st.session_state.assets["cash"] = derived_assets["cash"]
             st.session_state.assets["investments"] = derived_assets["investments"]
             st.session_state.assets["property"] = 0.0
+            st.session_state.liabilities["home_loan"] = 0.0
+            st.session_state.liabilities["other_loans"] = 0.0
             st.info("Reset values to defaults. Click Save Partner Data to store them.")
             st.rerun()
 

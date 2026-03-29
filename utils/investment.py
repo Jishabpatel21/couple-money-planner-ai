@@ -81,7 +81,7 @@ def insurance_recommendation(
 def calculate_net_worth(assets: list[dict], liabilities: list[dict]) -> dict:
     total_assets = float(sum(item.get("value", 0.0) for item in assets))
     total_liabilities = float(sum(item.get("value", 0.0) for item in liabilities))
-    net_worth = total_assets - total_liabilities
+    net_worth = max(0.0, total_assets - total_liabilities)
     return {
         "total_assets": total_assets,
         "total_liabilities": total_liabilities,
