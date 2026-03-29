@@ -2,6 +2,9 @@
 
 India-specific, AI-powered joint financial planning app for couples.
 
+## 🚀 Live Demo
+
+➡️ **[Try the app here](https://couple-money-planner-ai.streamlit.app/)**
 
 ## Features
 
@@ -132,6 +135,10 @@ This project uses a Streamlit theme file at `.streamlit/config.toml`.
 You can change `primaryColor` in `.streamlit/config.toml` to set your preferred default app color.
 
 ## Streamlit Cloud Deployment
+
+**Live app**: https://couple-money-planner-ai.streamlit.app/
+
+### Setup Steps:
 
 1. Push this project to GitHub.
 2. Open Streamlit Community Cloud: https://streamlit.io/cloud
