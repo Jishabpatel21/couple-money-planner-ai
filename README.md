@@ -20,7 +20,7 @@ India-specific, AI-powered joint financial planning app for couples.
 
 | Architecture | Impact Model |
 |---|---|
-| [Architecture Document](ARCHITECTURE_DOCUMENT.md) | [Impact Model](IMPACT_MODEL.md) |
+| [Couple's Money Planner: Architecture Document](ARCHITECTURE_DOCUMENT.md) | [Couple's Money Planner: Impact Model](IMPACT_MODEL.md) |
 | Covers agent roles, communication flow, tool integrations, and error-handling logic. | Covers quantified estimates for time saved, cost reduced, and revenue recovered with assumptions. |
 
 ## Project Structure

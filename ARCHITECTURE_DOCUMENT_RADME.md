@@ -133,4 +133,4 @@ flowchart LR
 
 - Architecture is modular and extension-ready: each domain agent can be upgraded without changing the full UI flow.
 - The fallback-first reliability posture is appropriate for hackathon and production pilot deployments.
-- For scale-out, the same agent boundaries can map to API services later with minimal redesign.
+- For scale-out, the same agent boundaries can map to API services later with minimal redesigns.
