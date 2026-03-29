@@ -16,6 +16,13 @@ India-specific, AI-powered joint financial planning app for couples.
 - Savings Score (0-100)
 - Before vs After optimization chart
 
+## Key Documents
+
+| Architecture | Impact Model |
+|---|---|
+| [Architecture Document](ARCHITECTURE_DOCUMENT.md) | [Impact Model](IMPACT_MODEL.md) |
+| Covers agent roles, communication flow, tool integrations, and error-handling logic. | Covers quantified estimates for time saved, cost reduced, and revenue recovered with assumptions. |
+
 ## Project Structure
 
 ```text
