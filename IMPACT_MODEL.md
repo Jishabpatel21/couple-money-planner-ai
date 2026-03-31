@@ -19,8 +19,8 @@ This is a back-of-envelope model with explicit assumptions and traceable math.
 6. Average annual financial benefit for adopters (tax + better allocation): Rs 18,000 per couple
 7. Paid customer base: 1,500 users
 8. ARPU: Rs 299 per month
-9. Annual churn before reliability controls: 5%
-10. Annual churn after reliability controls (AI fallback + graceful degradation): 2%
+9. Annual churn before reliability controls: 5.0%
+10. Annual churn after reliability controls (AI fallback + graceful degradation): 2.0%
 
 ## 1) Time Saved
 
